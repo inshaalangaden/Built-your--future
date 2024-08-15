@@ -1,0 +1,515 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+#home{
+    height: 100vh;
+
+}
+/* header start */
+
+header{
+    position: absolute;
+    top: 0;
+    background-color: #FFFFFF;
+    width: 100vw;
+}
+
+header .navbar a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+header .navbar a:hover{
+    color: #1692C7;
+    font-size: 17px;
+    transition: 0.2s;
+}
+header button{
+    width:130px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color:#1692C7;
+    border: none;
+}
+header button:hover{
+    box-shadow:1px 1px 5px rgb(145, 145, 145);
+    color: #fff;
+}
+header a button{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+header .navigation .icon{
+    display: none;
+}
+
+header .navigation{
+    max-width: 1432px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 19px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 67px;
+}
+/* header end */
+/* banner start */
+
+.banner-container{
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.banner-container .maintext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    width: 100vw;
+}
+.banner-container .maintext h1{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+    
+}
+.banner-container .maintext p{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 800px;
+    line-height: 22.5px;
+}
+.banner-container .maintext button{
+    top: 465px;
+    /* left: 652px; */
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    border: none;
+    line-height: 30px;
+}
+.banner-container .maintext button:hover{
+    box-shadow: 1px 1px 26px rgb(42, 42, 42);
+    background-color:#1692C7 ;
+}
+.banner-container .maintext button:hover a{
+    color: #FFFFFF;
+}
+.banner-container .maintext button a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #1692C7;
+}
+
+/* banner end */
+/* section1 start */
+
+.section1{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.container1{
+    width: 100%;
+    padding: 50px 105px;
+}
+.container1 .mainbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 89px;
+}
+
+.container1 .box2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 2rem;
+}
+.container1 .box2 h1{
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: left;
+    color: #141414; 
+}
+.container1 .box2 p{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+    color: #1A1A1A;
+    margin: 0;
+}
+.container1 .box2 button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #1692C7;
+    border: none;
+    margin-top: 16.415px;
+}
+.container1 .box2 button:hover{
+    box-shadow:1px 1px 5px rgb(145, 145, 145);
+}
+.container1 .box2 button a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+
+/* container2 start */
+
+
+.container2{
+    background-color: #EFF5F9;
+    width: 100%;
+    height: auto;
+    padding: 0 105px;
+}
+.container2 h1{
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 52.5px;
+    text-align: center;
+    padding: 50px;
+}
+.container2 .flexbox .box{
+    display: flex;
+    flex-direction: column;
+    background-color:#FFFFFF;
+    align-items:center;
+    justify-content: space-between;
+    width: calc(100% / 3);
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 102px;
+    overflow: hidden;
+}
+.box .image{
+    width: 100%;
+    height: auto;
+
+    
+}
+.container2 .flexbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFF5F9;
+    gap: 45px;
+}
+.container2 .flexbox .label{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    text-align:center;
+    padding-top: 12px;
+}
+.container2 .description{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: center;
+    color: #1A1A1A;
+    padding: 0 19px;
+}
+.container2 button{
+    width:129px;
+    height: 44px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #1692C7;
+    border: none;
+    margin-bottom:49px;
+    margin-top: auto;
+    margin-top: 14px;
+}
+
+.container2 button:hover{
+    box-shadow:1px 1px 5px rgb(145, 145, 145);
+}
+.container2 button a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+/* container2 end */
+/* container3 start */
+.container3 {
+    background-color:#FFFFFF;
+    height: auto;
+    width: 100%;
+    padding: 0 105px;
+}
+.container3 h1{
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 52.5px;
+    text-align: center;
+    padding-top:50px;
+}
+.container3 .clients{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 93px;
+    width: 100%;
+}
+.container3 .clients img{
+    width: 100%;
+}
+/* container3 end */
+/* container4 start */
+.container4{
+    background-color:#EFF5F9;
+    width: 100%;
+    height: auto;
+    padding: 0 105px;
+    
+}
+.container4 .mainflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 124px;
+}
+.container4 h1{
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 52.5px;
+    text-align: center;
+    padding: 44px;
+    margin: 0;
+}
+
+.container4 .flex2{
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}
+.container4 .form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container4 .form input{
+    width: auto;
+    height: 60px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    border: none;
+}
+.container4 .form textarea{
+    width: auto;
+    height: 60px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    border: none;
+    height: 113px;
+}
+.container4 .form input:hover{
+    border: 1px solid black;
+}
+.container4 .form label{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding: 10px;
+}
+.container4 button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color:#1692C7 ;
+    margin-top: 36px;
+}
+.container4 button:hover{
+    box-shadow:1px 1px 5px rgb(145, 145, 145);
+
+}
+.container4 .flex2 a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.flex2 iframe{
+    width: 100%;
+    height: 100%;
+    top: 2472px;
+    left: 705px;
+    gap: 0px;
+    border-radius: 10px;
+}
+.flex2 iframe:hover{
+    cursor: pointer;
+}
+
+
+.container4 .flex2 .map{
+    width: 50%;
+}
+.container4 .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    font-size: 20px;
+}
+.container4 #name,#email,#comment{
+    font-size: 20px;
+    color: #4a4a4a;
+    padding: 0 10px;
+}
+#comment{
+    padding-top: 10px;
+}
+.container4 .input label{
+    color: #000000;
+
+}
+.container4 .input:hover input{
+    box-shadow: 1px 1px 20px silver;
+    border: none;
+}
+.container4 input:focus{
+    box-shadow: 1px 1px 20px silver;
+    border: none;
+    outline: none;
+}
+.container4 textarea:focus{
+        box-shadow: 1px 1px 20px silver;
+        border: none;
+        outline: none;
+}
+.container5{
+    width: 100%;
+    padding: 0 105px;
+
+}
+.container5 .mainflex{
+    display: flex;
+    justify-content: space-between;
+    padding:85px 0;    
+}
+.container5 .flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container5 .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+.container5 .flex .normal{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27.5px;
+    text-align: left;
+    color: #000000;
+}
+.container5 .flex .normal:hover{
+    color: #1692C7;
+}
+.container5 .flex .bold{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32.5px;
+    text-align: left;
+    color: #000000;
+}
+
+footer{
+    background-color: #EFF5F9;
+    width: 100%;
+}
+footer p{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+    padding: 38px 0px;
+    text-align: center;
+}
+
+
+
+
+ 
+
+
+
+
